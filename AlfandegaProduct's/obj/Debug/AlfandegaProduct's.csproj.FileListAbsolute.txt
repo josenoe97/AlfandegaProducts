@@ -1,0 +1,8 @@
+H:\VisualStudio\Udemy\AlfandegaProduct's\AlfandegaProduct's\bin\Debug\AlfandegaProduct's.exe.config
+H:\VisualStudio\Udemy\AlfandegaProduct's\AlfandegaProduct's\bin\Debug\AlfandegaProduct's.exe
+H:\VisualStudio\Udemy\AlfandegaProduct's\AlfandegaProduct's\bin\Debug\AlfandegaProduct's.pdb
+H:\VisualStudio\Udemy\AlfandegaProduct's\AlfandegaProduct's\obj\Debug\AlfandegaProduct's.csproj.AssemblyReference.cache
+H:\VisualStudio\Udemy\AlfandegaProduct's\AlfandegaProduct's\obj\Debug\AlfandegaProduct's.csproj.SuggestedBindingRedirects.cache
+H:\VisualStudio\Udemy\AlfandegaProduct's\AlfandegaProduct's\obj\Debug\AlfandegaProduct's.csproj.CoreCompileInputs.cache
+H:\VisualStudio\Udemy\AlfandegaProduct's\AlfandegaProduct's\obj\Debug\AlfandegaProduct's.exe
+H:\VisualStudio\Udemy\AlfandegaProduct's\AlfandegaProduct's\obj\Debug\AlfandegaProduct's.pdb
