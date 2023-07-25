@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AlfandegaProduct_s.Entities.Exceptions;
+using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
@@ -17,6 +18,10 @@ namespace AlfandegaProduct_s.Entities
 
         public  Product(string name, double price)
         {
+            if (price < 0)
+            {
+                throw new DomainException($"{price} is a negative value");
+            }
             Name = name;
             Price = price;
         }

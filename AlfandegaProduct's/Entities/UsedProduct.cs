@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AlfandegaProduct_s.Entities.Exceptions;
+using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
@@ -16,6 +17,11 @@ namespace AlfandegaProduct_s.Entities
         public UsedProduct(string name, double price, DateTime manufactureDate) 
             : base(name, price) 
         {
+            DateTime now = DateTime.Now;
+            if(manufactureDate > now)
+            {
+                throw new DomainException($"{manufactureDate} is greater than the current one");
+            }
             ManufactureDate = manufactureDate;
         }
 

@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entities\Exceptions\DomainException.cs" />
     <Compile Include="Entities\ImportedProduct.cs" />
     <Compile Include="Entities\Product.cs" />
     <Compile Include="Entities\UsedProduct.cs" />
@@ -52,5 +53,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
